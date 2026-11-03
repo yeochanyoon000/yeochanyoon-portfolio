@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yeochan — Photographer based in Seoul.">
+  <title>Yeochan — Photographer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="site-config.js" defer></script>
+  <script src="home.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="index.html">YEOCHAN</a>
+    <nav aria-label="Main navigation">
+      <a href="work.html">WORK</a>
+      <a href="info.html">INFO</a>
+    </nav>
+  </header>
+
+  <main class="home-main">
+    <div class="home-image-wrap">
+      <img id="random-image" class="home-image" src="" alt="">
+      <p id="image-error" class="image-error" hidden>
+        Add photographs to <code>assets/images/home/</code> and list their paths in <code>site-config.js</code>.
+      </p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <span>Seoul, South Korea</span>
+    <span>© <span id="year"></span> Yeochan</span>
+  </footer>
+</body>
+</html>
