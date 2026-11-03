@@ -14,7 +14,7 @@ for section, folder in FOLDERS.items():
     folder.mkdir(parents=True, exist_ok=True)
     images = sorted(
         (
-            "/" + path.relative_to(ROOT).as_posix()
+            path.relative_to(ROOT).as_posix()
             for path in folder.iterdir()
             if path.is_file() and path.suffix.lower() in IMAGE_EXTENSIONS
         ),

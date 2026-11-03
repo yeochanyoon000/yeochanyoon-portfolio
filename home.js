@@ -17,7 +17,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     const selected = images[Math.floor(Math.random() * images.length)];
-    image.src = selected;
+    image.src = selected.startsWith("/")
+      ? "." + selected
+      : selected;
     image.alt = "Selected photograph by Yeochan";
 
     image.addEventListener("error", () => {

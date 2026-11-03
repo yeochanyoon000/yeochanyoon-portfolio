@@ -1,15 +1,15 @@
 {
   "home": [
-    "/assets/images/home/11.jpg",
-    "/assets/images/home/12.jpg",
-    "/assets/images/home/13.jpg",
-    "/assets/images/home/14.jpg",
-    "/assets/images/home/new.jpg"
+    "assets/images/home/11.jpg",
+    "assets/images/home/12.jpg",
+    "assets/images/home/13.jpg",
+    "assets/images/home/14.jpg",
+    "assets/images/home/new.jpg"
   ],
   "work": [
-    "/assets/images/work/21.jpg",
-    "/assets/images/work/22.jpg",
-    "/assets/images/work/23.jpg",
-    "/assets/images/work/24.jpg"
+    "assets/images/work/21.jpg",
+    "assets/images/work/22.jpg",
+    "assets/images/work/23.jpg",
+    "assets/images/work/24.jpg"
   ]
 }
