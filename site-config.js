@@ -8,7 +8,7 @@
 */
 window.SITE_CONFIG = {
   homeImages: [
-    // "assets/images/home/portrait-01.jpg",
+    "assets/images/home/여찬 여권사진 new.jpg",
     // "assets/images/home/portrait-02.jpg"
   ],
 
