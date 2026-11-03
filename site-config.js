@@ -1,20 +1,14 @@
 /*
-  Add your image paths below.
-  Homepage images are chosen randomly on EVERY page refresh.
-  Work images appear in the order listed and open the full-size image when clicked.
+  Image lists are now generated automatically by generate-images.py.
+  Put image files into:
+    assets/images/home/  -> randomly selected on homepage refresh
+    assets/images/work/   -> displayed in Work page, alphabetical filename order
 
-  Example:
-  "assets/images/home/portrait-01.jpg"
+  Do not manually add image paths here. Run:
+    python3 generate-images.py
+  Then commit and push images.json along with your new images.
 */
 window.SITE_CONFIG = {
-  homeImages: [
-    "assets/images/home/윤여찬 여권사진 new.jpg",
-    // "assets/images/home/portrait-02.jpg"
-  ],
-
-  workImages: [
-    // "assets/images/work/project-01-01.jpg",
-    // "assets/images/work/project-01-02.jpg",
-    // "assets/images/work/project-02-01.jpg"
-  ]
+  homeImages: [],
+  workImages: []
 };
