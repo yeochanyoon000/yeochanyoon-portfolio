@@ -90,21 +90,22 @@ a:hover { opacity: .55; }
 
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  column-gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 500px));
+  column-gap: 20px;
   row-gap: 34px;
-  align-items: start;
+  justify-content: center;
 }
 
 .work-item {
-  display: block;
+  display: grid;
   min-width: 0;
 }
 
 .work-item img {
-  display: block;
   width: 100%;
-  height: auto;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  display: block;
 }
 
 .image-error {

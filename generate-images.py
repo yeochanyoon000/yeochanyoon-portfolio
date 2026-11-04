@@ -23,7 +23,7 @@ for section, folder in FOLDERS.items():
     image_list[section] = images
 
 output = ROOT / "images.json"
-output.write_text(json.dumps(image_list, indent=2, ensure_ascii=False) + "\\n", encoding="utf-8")
+output.write_text(json.dumps(image_list, indent=2, ensure_ascii=False), encoding="utf-8")
 print(f"Updated {output.name}")
 print(f"Homepage images: {len(image_list['home'])}")
 print(f"Work images: {len(image_list['work'])}")
